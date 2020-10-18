@@ -10,5 +10,7 @@ if (x>y) and (x>z):
     print('Punctajul maxim îl deține elevul cu numarul ', a)
 elif (y>x) and (y>z):
     print('Punctajul maxim îl are elevul cu numarul ', b)
-else:
+elif (z>x) and (z>y):
     print('Punctajul maxim îl are elevul cu numarul ', c)
+else:
+    print("error")
